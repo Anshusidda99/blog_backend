@@ -15,6 +15,11 @@ const app = express();
 // Middleware to parse JSON
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send("🎉 Welcome to Anshu's Blog API! 🎉");
+});
+
+
 // Test route
 const blogRoutes = require('./route/blogRoute');
 app.use('/api/blogs', blogRoutes);
