@@ -7,6 +7,7 @@ const {
   getBlogById,
   updateBlog,
   deleteBlog,
+  addCommentToBlog,
 } = require('../controllers/blogController');
 const { protect } = require('../middleware/auth');
 
