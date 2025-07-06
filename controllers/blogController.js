@@ -1,5 +1,5 @@
 // controllers/blogController.js
-const Blog = require('../model/blog');
+const Blog = require('../models/blog');
 
 // @desc    Create a new blog
 // @route   POST /api/blogs
